@@ -1,29 +1,15 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true
+  env: {
+    browser: true,
+    es6: true
   },
-  "extends": "eslint:recommended",
-  "parserOptions": {
-    "sourceType": "module"
+  parserOptions: {
+    sourceType: "module"
   },
-  "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "windows"
-    ],
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "semi": [
-      "error",
-      "never"
-    ],
+  rules: {
+    indent: ["error", 2],
+    quotes: ["error", "double"],
+    semi: ["error", "never"],
     "no-console": "off"
   }
-};
+}
